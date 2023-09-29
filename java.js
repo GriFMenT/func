@@ -7,6 +7,7 @@ const getSquare = (arr) =>{
     }
     return sum
 }
+
 console.log(elem)
 const result = getSquare([5, 2, 8, 3, 7])
 console.log(sum)
