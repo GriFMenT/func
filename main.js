@@ -1,33 +1,3 @@
-//1
-"use strict"
-function sumOfArrayElements(arr) {
-    const total = arr.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
-    return total;
-  }
-  
-  const myArray = [1, 2, 3, 4, 5];
-  const result = sumOfArrayElements(myArray);
-  console.log("Сумма элементов массива:", result);
-
-
-
-//2
-function getDivisors(number) {
-    const divisors = [];
-    
-    for (let i = 1; i <= number; i++) {
-      if (number % i === 0) {
-        divisors.push(i);
-      }
-    }
-    
-    return divisors;
-  }
-  
-  const myNumber = 12;
-  const result2 = getDivisors(myNumber);
-  console.log(`Делители числа ${myNumber}:`, result2);
-
 
 
 //3
