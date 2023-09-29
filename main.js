@@ -1,5 +1,4 @@
 //1
-
 "use strict"
 function sumOfArrayElements(arr) {
     const total = arr.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
