@@ -1,4 +1,4 @@
-//№1
+//1
 
 "use strict"
 function sumOfArrayElements(arr) {
@@ -12,7 +12,7 @@ function sumOfArrayElements(arr) {
 
 
 
-//№2
+//2
 function getDivisors(number) {
     const divisors = [];
     
@@ -30,7 +30,8 @@ function getDivisors(number) {
   console.log(`Делители числа ${myNumber}:`, result2);
 
 
-//№3
+
+//3
 function stringToCharArray(str) {
     return Array.from(str);
   }
@@ -38,9 +39,10 @@ function stringToCharArray(str) {
   const myString = "hello, world";
   const result3 = stringToCharArray(myString);
   console.log("Массив символов строки:", result3);
-  
 
-//№4
+
+
+//4
 function reverseString(str) {
     return str.split('').reverse().join('');
   }
@@ -50,7 +52,8 @@ function reverseString(str) {
   console.log("Перевернутая строка:", reversed);
 
 
-//№5
+
+//5
 function capitalizeFirstLetter(str) {
     if (str.length === 0) {
       return str;
@@ -68,7 +71,7 @@ function capitalizeFirstLetter(str) {
   
   
 
-//№6
+//6
 function capitalizeWords(str) {
     return str
       .split(' ')
@@ -81,7 +84,8 @@ function capitalizeWords(str) {
   console.log("Строка с заглавной первой буквой каждого слова:", result6);
 
 
-//№7
+
+//7
 function fillArrayWithNumbers(n) {
     if (n <= 0) {
       return [];
@@ -101,7 +105,8 @@ function fillArrayWithNumbers(n) {
   console.log("Массив целых чисел:", numberArray);
 
 
-//№8
+
+//8
 function sumOfDigits(number) {
     const numStr = number.toString();
     let sum = 0;
@@ -119,7 +124,7 @@ function sumOfDigits(number) {
   
   
 
-//№9
+//9
 function isLeapYear(year) {
     return (year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0);
   }
@@ -134,7 +139,7 @@ function isLeapYear(year) {
   
   
 
-//№10
+//10
 function secondsToDays(seconds) {
     const secondsInADay = 86400;
     const days = Math.floor(seconds / secondsInADay);
@@ -147,7 +152,7 @@ function secondsToDays(seconds) {
 
 
 
-//№11
+//11
 function getRandomElementFromArray(arr) {
     const randomIndex = Math.floor(Math.random() * arr.length);
     
@@ -160,7 +165,7 @@ function getRandomElementFromArray(arr) {
   
 
 
-//№12
+//12
 function isPrime(number) {
     if (number <= 1) {
       return false;
@@ -182,4 +187,3 @@ function isPrime(number) {
   } else {
     console.log(`${myNumber12} - не простое число`);
   }
-  
